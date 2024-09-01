@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wall-E</title>
+    <base href="/">
+    <link rel="stylesheet" href="styless/moviesHome.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="htmlFiles/home.html">
+                <img src="styless/img/logov2.png" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="htmlFiles/login.html" class="login-button">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="htmlFiles/viewPlan.html"><i class='bx bx-calendar'></i><span> View Plan</span></a></li>
+                <li><a href="htmlFiles/friends.html"><i class='bx bx-group'></i><span> Friends</span></a></li>
+                <li><a href="htmlFiles/search.html"><i class='bx bx-search'></i><span> Search</span></a></li>
+                <li><a href="htmlFiles/favoriteMovies.html"><i class='bx bx-heart'></i><span> Favorite Movies</span></a></li>
+            </ul>
+        </aside>
+        <button class="toggle-button" onclick="toggleSidebar()">→</button>
+        <main class="main-content">
+            <div class="wrapper">
+                <h1>Wall-E</h1>
+                <div class="movie-summary">
+                    <p>WALL-E (stylized with an interpunct as WALL·E) is a 2008 American animated romantic science fiction film[5] produced by Pixar Animation Studios for Walt Disney Pictures. The film was directed by Andrew Stanton, produced by Jim Morris, and written by Stanton and Jim Reardon. It stars the voices of Ben Burtt, Elissa Knight, Jeff Garlin, John Ratzenberger, Kathy Najimy, with Sigourney Weaver and Fred Willard. The film follows a solitary robot named WALL-E on a future, uninhabitable, deserted Earth in 2805, left to clean up garbage. He is visited by a robot called EVE sent from the starship Axiom, with whom he falls in love and pursues across the galaxy.</p>
+                </div>
+                <hr>
+                <div class="movie-video">
+                    <iframe width="800" height="450" src="https://www.youtube.com/embed/CZ1CATNbXg0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <hr>
+                <div class="spoiler-alert">Spoiler Alert</div>
+                <button class="toggle-comments" onclick="toggleComments()">Show Comments</button>
+                <div class="movie-comments" style="display: none;">
+                    <h2>User Comments</h2>
+                    <div class="comment">
+                        <p><strong>Anonym User:</strong> Cutest Robot Ever. </p>
+                    </div>
+                    <div class="comment">
+                        <p><strong>Anonym User:</strong> The love of artifical intelligences, so cute.</p>
+                    </div>
+                    <div class="comment">
+                        <p><strong>Anonym User:</strong> Is the future really going to look like this?</p>
+                    </div>
+                    
+                   
+                </div>
+                <div class="help-wrapper">
+                    <h2 class="help-title">Need More Help?</h2>
+                    <button class="contact-button" onclick="toggleContact()">Contact Us</button>
+                    <div id="contact-info" style="display: none; opacity: 0;">nkaplan@netas.com.tr</div>
+                    <p>Terms of Use</p>
+                    <p>Privacy</p>
+                    <p>Cookie Preferences</p>
+                    <p>Corporate Information</p>
+                </div>
+            </div>
+            <p>Designed by Nartan Kaplan.</p>
+            </div>
+        </main>
+    </div>
+    <script src="javascriptFiles/main.js"></script>
+</body>
+</html>

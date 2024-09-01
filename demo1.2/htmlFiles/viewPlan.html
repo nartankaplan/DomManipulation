@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Plan</title>
+    <base href="/">
+    <link rel="stylesheet" href="styless/moviesHome.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="htmlFiles/home.html">
+                <img src="styless/img/logov2.png" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="htmlFiles/login.html" class="login-button">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="htmlFiles/viewPlan.html"><i class='bx bx-calendar'></i><span> View Plan</span></a></li>
+                <li><a href="htmlFiles/friends.html"><i class='bx bx-group'></i><span> Friends</span></a></li>
+                <li><a href="htmlFiles/search.html"><i class='bx bx-search'></i><span> Search</span></a></li>
+                <li><a href="htmlFiles/favoriteMovies.html"><i class='bx bx-heart'></i><span> Favorite Movies</span></a></li>
+            </ul>
+        </aside>
+        <button class="toggle-button" onclick="toggleSidebar()">→</button>
+        <main class="main-content">
+            <div class="wrapper">
+                <h1>My Plan</h1>
+                <div class="plan-wrapper">
+                    <h2 style="color: #e09a9a;">Current Plan: Basic</h2>
+                    <p>Watch on one device at a time.</p>
+                    <p>Single user plan.</p>
+                    <p>Billing date: [22.07.2024]</p>
+                    <p>Next payment date: [22.08.2024]</p>
+                </div>
+                <h1>Available Plans</h1>
+                <div class="plans-wrapper">
+                    <div class="plan">
+                        <h2 class="basic-plan">Basic Plan</h2>
+                        <p>Watch on one device at a time.</p>
+                        <p>Single user plan.</p>
+                        <p>Pricing: $4</p>
+                    </div>
+                    <hr>
+                    <div class="plan">
+                        <h2 class="standard-plan">Standard Plan</h2>
+                        <p>Watch on all devices.</p>
+                        <p>Single user account.</p>
+                        <p>Pricing: $8</p>
+                    </div>
+                    <hr>
+                    <div class="plan">
+                        <h2 class="premium-plan">Premium Plan</h2>
+                        <p>Watch on all devices.</p>
+                        <p>Four user accounts.</p>
+                        <p>Pricing: $12</p>
+                    </div>
+                </div>
+                <div class="help-wrapper">
+                    <h2 class="help-title">Need More Help?</h2>
+                    <button class="contact-button" onclick="toggleContact()">Contact Us</button>
+                    <div id="contact-info" style="display: none; opacity: 0;">nkaplan@netas.com.tr</div>
+                    <p>Terms of Use</p>
+                    <p>Privacy</p>
+                    <p>Cookie Preferences</p>
+                    <p>Corporate Information</p>
+                </div>
+            </div>
+            <p>Designed by Nartan Kaplan.</p>
+        </main>
+    </div>
+    <script src="javascriptFiles/main.js"></script>
+</body>
+</html>
