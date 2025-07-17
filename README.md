@@ -204,7 +204,7 @@ This project demonstrates the evolution from traditional DOM manipulation to mod
 **Designed by**: Nartan Kaplan
 
 
-# DomManipulation
+# Practising
 A basic web page written with html, css, javascript and containing manipulations. This repository also contains some brief informations about html,css and javascript without using any frameworks.
 
 # Goal
@@ -214,39 +214,26 @@ Key Concepts:
 -ECMA Scripts
 
 #
--HTML is a markup language that defines the structure of a web page. It specifies the layout and hierarchy of the content on the web page, such as text, images, links, etc.
 
--CSS is used to style and layout web pages created with HTML. It defines colors, fonts, layouts, and other visual properties.
-
--JavaScript is a programming language that adds interactivity and dynamism to web pages. It can respond to user interactions, modify page content, and enhance the functionality of web applications.
-
-![image](https://github.com/user-attachments/assets/1597a409-627b-47ce-9ec5-b1e774da16af)
-
-# DEMO 1.1
-
-A movie playback site designed using HTML and CSS offers a static design with a simple interface for the user.
-
-You can access the source codes with clicking the file named demo1.1
-
-![image](https://github.com/user-attachments/assets/7aa7e703-46ac-4118-9faa-55ab2668575c)
+<img width="1915" height="1070" alt="image" src="https://github.com/user-attachments/assets/1179e9ed-7c92-40f9-bff9-7e6d7a7b6caf" />
 
 
-# DOM (Document Object Modelling)
-
-Before moving on to demo 1.2, we need to understand the concept of DOM and DOM Manipulation.
 
 
-![image](https://github.com/user-attachments/assets/903c1b5e-d9c9-4f72-880c-57d09a2f833a)
+
+<img width="1903" height="1054" alt="image" src="https://github.com/user-attachments/assets/2c19eb04-e757-4b87-9fca-64197ed9a8b6" />
 
 
-![image](https://github.com/user-attachments/assets/445d7aed-beda-48cc-a964-c0c555e8a1fc)
-
-# DEMO 1.2
-
-A new demo enhanced with various manipulations using JavaScript functions.
 
 
-![image](https://github.com/user-attachments/assets/3e20c783-4fac-44de-bb40-42e269a6b908)
+
+<img width="1910" height="1074" alt="image" src="https://github.com/user-attachments/assets/5fcaac6f-da63-4c37-9b6c-e8d8856946ba" />
+
+
+
+
+
+<img width="1909" height="1067" alt="image" src="https://github.com/user-attachments/assets/d8d036af-3f0d-4fa8-92e1-aa908a583778" />
 
 
 
