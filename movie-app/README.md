@@ -1,56 +1,28 @@
 # Movie App
 
-Bu proje, HTML/CSS/JavaScript tabanlı bir film sitesinin React + Vite kullanılarak yeniden yazılmış halidir.
+This project is a rewritten version of a movie website originally built with HTML/CSS/JavaScript, now developed using React + Vite.
 
-## Özellikler
+## Features
 
-- 🎬 Film listesi ve detay sayfaları
-- 🔍 Film arama işlevselliği  
-- 👥 Arkadaş listesi
-- ❤️ Favori filmler
-- 📱 Responsive tasarım
-- 🎨 Modern UI/UX
-- ⚡ Hızlı performans (Vite)
+- 🎬 Movie list and detail pages  
+- 🔍 Movie search functionality  
+- 👥 Friends list  
+- ❤️ Favorite movies  
+- 📱 Responsive design  
+- 🎨 Modern UI/UX  
+- ⚡ High performance (Vite)
 
-## Kurulum
+## Installation
 
 ```bash
-# Bağımlılıkları yükle
+# Install dependencies
 npm install
 
-# Development sunucusunu başlat
+# Start development server
 npm run dev
 
-# Production build oluştur
+# Create production build
 npm run build
 
-# Build'i önizle
+# Preview the build
 npm run preview
-```
-
-## Sayfa Yapısı
-
-- **Ana Sayfa (/)**: Film listesi, arama ve banner
-- **Login (/login)**: Kullanıcı girişi
-- **Register (/register)**: Kullanıcı kaydı
-- **Film Detay (/movie/:id)**: Film detayları ve yorumlar
-- **Arama (/search)**: Film arama sayfası
-- **Favori Filmler (/favorite-movies)**: Beğenilen filmler
-- **Arkadaşlar (/friends)**: Arkadaş listesi
-- **Plan Görüntüle (/view-plan)**: Abonelik planları
-
-## Teknolojiler
-
-- React 19
-- React Router DOM
-- Vite
-- CSS3
-- Boxicons
-
-## Orijinal Proje
-
-Bu React uygulaması, DOM manipülasyon örneği olarak HTML/CSS/JavaScript ile yazılmış orijinal projeden dönüştürülmüştür.
-
----
-
-Designed by Nartan Kaplan
